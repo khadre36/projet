@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<form>
+				<label for="Prenom">Prenom</label>
+				<input type="text" class="form-control" id="Prenom">
+				<label>Mot de Passe</label>
+				<input type="password" class="form-control" >
+				<label>Description</label>
+				<textarea class="form-control" rows="10"></textarea>
+				<label>Telephone</label>
+				<input type="number" class="form-control" min="0" max="20">
+				<label>Choisir vos numéros favoris</label>
+				<div class="form-check"><input type="checkbox" class="form-check-input">1</div>
+				<div class="form-check"><input type="checkbox" class="form-check-input">2</div>
+				<div class="form-check"><input type="checkbox" class="form-check-input">3</div>
+				<label>Choisir votre plat préféré</label>
+				<div>
+					<input type="radio" name="plat" id="soup">
+					<label for="soup">Soupe kandia</label>
+				</div>
+				<div>
+					<input type="radio" name="plat">C Bon
+				</div>
+				<div>
+					<input type="radio" name="plat">Mafé
+				</div>
+				<label>Coisir votre pays</label>
+				<select class="form-control">
+					<option>Senegal</option>
+					<option>Gambie</option>
+					<option>Mali</option>
+				</select>
+				<button type="submit" class="btn btn-primary ">Se connecter</button>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
